@@ -16,7 +16,7 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            # Пожалуйста, ознакомьтесь с README. В нем есть ответы на распространенные вопросы и описания файлов: [README.md](https://github.com/Flowseal/zapret-discord-youtube/blob/main/README.md)
+            # Пожалуйста, ознакомьтесь с README. В нем есть ответы на распространенные вопросы и описания файлов: [README.md](https://github.com/i4ego/orbitus-service-webgui/blob/main/README.md)
 
             ### Прежде всего
             - Запустите `service.bat` и выберите пункт `Run Diagnostics`, чтобы проверить на конфликтующие сервисы.
@@ -33,7 +33,7 @@ jobs:
             - Убедитесь, что процесс winws.exe не запущен (выключите его, если запущен)
             - Удалите папку с запретом
             - Перезапустите устройство
-            - Скачайте последнюю версию [со страницы релизов](https://github.com/Flowseal/zapret-discord-youtube/releases) (`zapret-discord-youtube-...`)
+            - Скачайте последнюю версию [со страницы релизов](https://github.com/i4ego/orbitus-service-webgui/releases) (`orbitus-service-webgui-...`)
             - Нажмите пкм по архиву -> свойства. Если снизу справа есть галочка разблокировать, то нажмите на неё -> применить -> ОК
             - Распакуйте в новую папку в корне диска (без спец. символов, кириллицы и пробелов)
             - Откройте service.bat -> Run Tests -> Standard -> All. В конце он выведет лучшую стратегию
@@ -63,4 +63,4 @@ jobs:
             - отправьте результаты тестирования конфигураций zapret в виде файла
             - отправьте состояние `IPSet`/`Game` Filter и активных фейков 
             - отправьте полный скриншот диагностики zapret
-            - отправьте скриншот настроенного [Безопасного DNS (Secure DNS)](https://github.com/Flowseal/zapret-discord-youtube#%EF%B8%8F%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) в ОС/браузере
+            - отправьте скриншот настроенного [Безопасного DNS (Secure DNS)](https://github.com/i4ego/orbitus-service-webgui#%EF%B8%8F%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) в ОС/браузере

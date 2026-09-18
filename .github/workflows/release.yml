@@ -32,7 +32,7 @@ jobs:
 
       - name: Prepare release bundle
         run: |
-          NAME="zapret-discord-youtube-${{ github.event.inputs.tag }}"
+          NAME="orbitus-service-webgui-${{ github.event.inputs.tag }}"
 
           mkdir "$NAME"
 
@@ -43,7 +43,7 @@ jobs:
 
       - name: Create archives
         run: |
-          NAME="zapret-discord-youtube-${{ github.event.inputs.tag }}"
+          NAME="orbitus-service-webgui-${{ github.event.inputs.tag }}"
 
           zip -qr "${NAME}.zip" "$NAME"
           rar a -idq "${NAME}.rar" "$NAME"
@@ -51,7 +51,7 @@ jobs:
 
       - name: Print SHA256 checksums
         run: |
-          NAME="zapret-discord-youtube-${{ github.event.inputs.tag }}"
+          NAME="orbitus-service-webgui-${{ github.event.inputs.tag }}"
 
           sha256sum \
             "${NAME}.zip" \
@@ -64,6 +64,6 @@ jobs:
           tag_name: ${{ github.event.inputs.tag }}
           name: ${{ github.event.inputs.tag }}
           files: |
-            zapret-discord-youtube-${{ github.event.inputs.tag }}.zip
-            zapret-discord-youtube-${{ github.event.inputs.tag }}.rar
-            zapret-discord-youtube-${{ github.event.inputs.tag }}.tar.gz
+            orbitus-service-webgui-${{ github.event.inputs.tag }}.zip
+            orbitus-service-webgui-${{ github.event.inputs.tag }}.rar
+            orbitus-service-webgui-${{ github.event.inputs.tag }}.tar.gz
