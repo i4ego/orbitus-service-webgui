@@ -1,5 +1,5 @@
 @echo off
-set "LOCAL_VERSION=ui 0.1 | orbitus-service 1.10.2"
+set "LOCAL_VERSION=0.1"
 
 :: External commands
 if "%~1"=="status_zapret" (
@@ -371,7 +371,7 @@ chcp 437 > nul
 cls
 
 :: Set current version and URLs
-set "GITHUB_VERSION_URL=https://raw.githubusercontent.com/i4ego/orbitus-service-webgui/main/.service/version.txt"
+set "GITHUB_VERSION_URL=https://raw.githubusercontent.com/i4ego/orbitus-service-webgui/main/.service/ui-version.txt"
 set "GITHUB_RELEASE_URL=https://github.com/i4ego/orbitus-service-webgui/releases/tag/"
 set "GITHUB_DOWNLOAD_URL=https://github.com/i4ego/orbitus-service-webgui/releases/latest"
 
